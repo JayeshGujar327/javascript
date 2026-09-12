@@ -5,7 +5,13 @@ for ( i = 0; i<=10; i++)
 }
 
 // 2's table //
-for ( i== 2; i<=20; i+=2)
+for ( i = 1; i<=10; i++)
 {
-    console.log(i);
-}
+    console.log("2 * " + i + " = " + 2*i);
+}                       
+
+// print even numbers from 1 to 100 //
+for ( i=1; i<=100; i++)
+    if ( i % 2 === 0){
+        console.log(i);
+    }
