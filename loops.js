@@ -75,3 +75,51 @@ do {
     num1++;
 
 } while (num1 <= 5);
+
+let number5= 25346;
+let sum2 = 0;
+do {
+    let digit = number5 % 10;
+    sum2= sum2 + digit;
+    number5= Math.floor(number5 / 10);
+
+} while ( number5>0);
+ console.log("sum2 :"+ sum2);
+
+ // break//
+ // serching number in array //
+
+ let numbers8=[10,20,30,40,50,60];
+ for ( i=0; i<numbers8.length; i++)
+ {
+        if(numbers8[i]===30){
+        console.log("number found :" + i);
+        break;
+        
+    }
+
+    console.log("Checking:", numbers8[i]);
+ }
+
+ // continue //
+
+ for (let i = 1; i <= 10; i++) {
+
+    if (i === 5) {
+        continue;
+    }
+
+    console.log(i);
+}
+
+// print only odd numbers //
+// print only odd numbers //
+
+for (let i = 1; i <= 10; i++) {
+
+    if (i % 2 === 0) {
+        continue;
+    }
+
+    console.log("odd numbers are : "+i);
+}
