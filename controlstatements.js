@@ -219,3 +219,16 @@ if (age >= 18) {
 
     console.log("You are underage");
 }
+
+
+// nested if else//
+
+let age3 = 19;
+if (age3 >= 18)
+{
+    if (age3 >= 21)
+    {
+        console.log("You are eligible to drink alcohol");
+    } else {
+        console .log (" you are adult but not eligible to drink alcohol");
+    } }
